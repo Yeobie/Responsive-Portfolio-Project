@@ -1,0 +1,13 @@
+/*
+font-family: 'Alata', sans-serif;
+font-family: 'Fredericka the Great', cursive; */
+
+h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 70px;
+}
+
+p {
+  font-family: "Alata", sans-serif;
+  font-size: 30px;
+}
