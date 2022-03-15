@@ -1,15 +1,16 @@
-h1 {
-  font-family: "Fredericka the Great", cursive;
-  font-size: 70px;
+:root {
+  --primary-color: #fff6f0;
+  --branding-color: #fe8c68;
+  --lines-color: #d75c00;
 }
 
-p {
-  font-family: "Alata", sans-serif;
-  font-size: 30px;
+h1,
+h2 {
+  font-family: "Fredericka the Great", cursive;
 }
 
 .hero {
-  background-color: #fff6f0;
+  background-color: var(--primary-color);
   text-align: center;
   padding: 150px 50px 250px 50px;
 }
@@ -22,8 +23,63 @@ p {
   font-size: 100px;
 }
 
-h2 {
+.hero h2 {
   font-family: "Alata", sans-serif;
   color: #272142;
   font-size: 24px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p,
+a {
+  font-family: "Alata", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.navigation-link {
+  color: var(--branding-color);
+  padding: 15px 15px;
+  border: 1px solid var(--lines-color);
+  border-radius: 4px;
+}
+
+.links {
+  color: var(--branding-color);
+}
+
+.navigation-link:hover,
+.links:hover {
+  color: var(--lines-color);
+}
+
+.colorings {
+  margin-left: 50px;
+}
+
+.homepage-container {
+  margin-top: 150px;
+}
+
+.drawings-description {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.content-row {
+  margin-bottom: 150px;
+}
+.Player-Zero {
+  max-width: 50%;
+}
+
+.colorings-description {
+  margin-top: 100px;
+}
+
+.frontend-description {
+  margin-left: 100px;
 }
