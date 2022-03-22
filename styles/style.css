@@ -12,9 +12,12 @@ h2 {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 150px 50px 250px 50px;
 }
 
+.hero,
+.about-hero {
+  padding: 150px 50px 250px 50px;
+}
 .hero p {
   font-size: 36px;
 }
@@ -23,13 +26,15 @@ h2 {
   font-size: 100px;
 }
 
-.hero h2 {
+.hero h2,
+.about-hero h3 {
   font-family: "Alata", sans-serif;
   color: #272142;
   font-size: 24px;
 }
 
-h2 {
+h2,
+.about-hero h1 {
   font-size: 64px;
 }
 
@@ -84,6 +89,14 @@ a {
 .frontend-description {
   margin-left: 100px;
 }
+.about-hero p {
+  margin-right: 50px;
+}
+.ilaria-vilardi {
+  max-width: 80%;
+  margin-top: 80px;
+  margin-left: 80px;
+}
 
 @media (min-width: 576px) and (max-width: 992px) {
   .hero {
@@ -99,18 +112,46 @@ a {
     margin-left: 0px;
     text-align: center;
   }
+
+  .about-hero {
+    padding: 80px 15px 100px 15px;
+    text-align: center;
+  }
+
+  .about-hero p {
+    margin-right: 0px;
+  }
+
+  .ilaria-vilardi {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 576px) {
   .hero {
     padding: 80px 50px 100px 50px;
   }
-  .hero p {
+
+  .about-hero {
+    padding: 80px 15px 100px 15px;
+    text-align: center;
+  }
+  .hero p,
+  .about-hero h3 {
     font-size: 20px;
   }
 
-  .hero h1 {
+  .about-hero p {
+    margin-right: 0px;
+  }
+
+  .hero h1,
+  .about-hero h1 {
     font-size: 45px;
+  }
+
+  .ilaria-vilardi {
+    margin-left: 0px;
   }
 
   .hero h2 {
