@@ -15,7 +15,7 @@ h2 {
 }
 
 .hero,
-.about-hero {
+.content-hero {
   padding: 150px 50px 250px 50px;
 }
 .hero p {
@@ -27,14 +27,19 @@ h2 {
 }
 
 .hero h2,
-.about-hero h3 {
+.content-hero h3 {
   font-family: "Alata", sans-serif;
   color: #272142;
   font-size: 24px;
 }
 
+.content-hero h2 {
+  color: #272142;
+  font-size: 44px;
+}
+
 h2,
-.about-hero h1 {
+.content-hero h1 {
   font-size: 64px;
 }
 
@@ -89,7 +94,7 @@ a {
 .frontend-description {
   margin-left: 100px;
 }
-.about-hero p {
+.content-hero p {
   margin-right: 50px;
 }
 .ilaria-vilardi {
@@ -113,12 +118,12 @@ a {
     text-align: center;
   }
 
-  .about-hero {
+  .content-hero {
     padding: 80px 15px 100px 15px;
     text-align: center;
   }
 
-  .about-hero p {
+  .content-hero p {
     margin-right: 0px;
   }
 
@@ -132,21 +137,21 @@ a {
     padding: 80px 50px 100px 50px;
   }
 
-  .about-hero {
+  .content-hero {
     padding: 80px 15px 100px 15px;
     text-align: center;
   }
   .hero p,
-  .about-hero h3 {
+  .content-hero h3 {
     font-size: 20px;
   }
 
-  .about-hero p {
+  .content-hero p {
     margin-right: 0px;
   }
 
   .hero h1,
-  .about-hero h1 {
+  .content-hero h1 {
     font-size: 45px;
   }
 
@@ -180,5 +185,12 @@ a {
   p,
   a {
     font-size: 14px;
+  }
+
+  .content-hero h2 {
+    font-size: 30px;
+  }
+  .content-hero img {
+    max-width: 60%;
   }
 }
