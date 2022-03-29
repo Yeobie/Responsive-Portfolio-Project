@@ -9,6 +9,20 @@ h2 {
   font-family: "Fredericka the Great", cursive;
 }
 
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  margin-bottom: 0px;
+}
+.navbar li {
+  list-style: none;
+  margin-left: 40px;
+}
+
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -57,12 +71,18 @@ a {
   border-radius: 4px;
 }
 
-.links {
+.links,
+.navbar a {
   color: var(--branding-color);
 }
 
+nav li .active {
+  color: var(--lines-color);
+}
+
 .navigation-link:hover,
-.links:hover {
+.links:hover,
+.navbar a:hover {
   color: var(--lines-color);
 }
 
@@ -133,6 +153,19 @@ a {
 }
 
 @media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar ul {
+    padding-left: 0;
+  }
+
+  .navbar li {
+    margin: 0px 20px;
+  }
+
   .hero {
     padding: 80px 50px 100px 50px;
   }
