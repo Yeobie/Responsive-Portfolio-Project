@@ -5,7 +5,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Fredericka the Great", cursive;
 }
 
@@ -123,6 +124,45 @@ nav li .active {
   margin-left: 80px;
 }
 
+.footer-work-contact {
+  padding: 70px 30px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.footer-work-contact h3 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 45px;
+  margin-left: 48px;
+  margin-bottom: 0px;
+}
+
+.footer-work-contact a {
+  color: #ffffff;
+  background-color: var(--lines-color);
+  padding: 15px 25px;
+  border-radius: 4px;
+  margin-right: 48px;
+}
+
+.footer-email {
+  font-size: 24px;
+}
+
+.social-links a {
+  font-size: 20px;
+  color: var(--branding-color);
+  margin: 0 30px;
+  padding: 10px 18px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  transition: all 180ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+  background-color: var(--branding-color);
+}
 @media (min-width: 576px) and (max-width: 992px) {
   .hero {
     padding: 150px 50px 150px 50px;
@@ -148,6 +188,15 @@ nav li .active {
   }
 
   .ilaria-vilardi {
+    margin-left: 0px;
+  }
+
+  .footer-work-contact a {
+    margin-right: 0px;
+    padding: 15px 15px;
+  }
+
+  .footer-work-contact h3 {
     margin-left: 0px;
   }
 }
@@ -225,5 +274,9 @@ nav li .active {
   }
   .content-hero img {
     max-width: 60%;
+  }
+
+  .footer-email {
+    font-size: 20px;
   }
 }
