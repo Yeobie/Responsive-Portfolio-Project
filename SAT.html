@@ -1,0 +1,414 @@
+<html>
+  <head>
+    <title>Ilaria's Support Admin Tool</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
+  </head>
+  <body
+    data-new-gr-c-s-check-loaded="14.1055.0"
+    data-gr-ext-installed=""
+    cz-shortcut-listen="true"
+  >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><span class="fas fa-cog me-3"></span
+          ><span>Ilaria's Support Admin Tool</span></a
+        >
+        <div class="d-flex my-2 my-lg-0">
+          <span class="navbar-text me-3">Hello, Ilaria!</span>
+          <form action="/logout" method="post">
+            <button class="btn btn-outline-success">Logout</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row min-vh-100">
+        <div class="col-lg-2 bg-light text-dark">
+          <nav class="my-3">
+            <a
+              class="nav-link text-dark"
+              href="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c"
+            >
+              <div class="fas fa-home"></div>
+              Account Overview</a
+            ><a
+              class="nav-link"
+              href="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/subscriptions"
+            >
+              <div class="fas fa-credit-card"></div>
+              Subscriptions</a
+            >
+            <hr />
+            <a
+              class="nav-link"
+              href="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/follow-up"
+            >
+              <div class="fas fa-stethoscope"></div>
+              CBC Follow Up</a
+            >
+            <hr />
+            <a
+              class="nav-link"
+              href="/braze/clue-1a9fc198ccafdc63bdc165e701f63c3"
+              target="_blank"
+            >
+              <div class="fas fa-envelope"></div>
+              Braze Profile</a
+            >
+          </nav>
+        </div>
+        <div class="col-lg-10">
+          <div class="container-fluid p-2">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row p-2">
+                  <div class="card p-0">
+                    <div class="card-header">Account</div>
+                    <div class="card-body">
+                      <div>
+                        <label class="text-secondary me-1">Email:</label
+                        ><label class="">akauk17@gmail.com</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Name:</label
+                        ><label class="">alysse kauk</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Analytics ID:</label
+                        ><label class=""
+                          >clue-1a9fc198ccafdc63bdc165e701f63c3</label
+                        >
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Verified:</label
+                        ><label class="">Yes</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Created:</label
+                        ><label class="">Nov 25 2019</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Deleted:</label
+                        ><label class="">—</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Has Password:</label
+                        ><label class="">Yes</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1"
+                          >Connected 3rd Party Services:</label
+                        ><label class="">—</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1"
+                          >Privacy Policy Version:</label
+                        ><label class="">211021</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1"
+                          >Terms-of-Service Version:</label
+                        ><label class="">211021</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1"
+                          >Uses Lite Mode:</label
+                        ><label class="">No</label>
+                      </div>
+                      <form
+                        action="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c"
+                        method="post"
+                        class="form-inline"
+                      >
+                        <input type="hidden" name="appMode" value="true" />
+                        <div>
+                          <label class="text-secondary me-1">App Mode:</label
+                          ><button
+                            type="submit"
+                            class="link-primary"
+                            style="
+                              outline: none !important;
+                              padding: 0;
+                              border: 0;
+                              vertical-align: baseline;
+                              background-color: transparent;
+                              text-decoration: underline;
+                            "
+                          >
+                            Hidden
+                          </button>
+                        </div>
+                      </form>
+                      <form method="post" class="form-inline">
+                        <button
+                          type="submit"
+                          class="btn btn-primary mt-2 me-2"
+                          formaction="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/action/unverify"
+                        >
+                          Unverify</button
+                        ><button
+                          type="submit"
+                          class="btn btn-primary mt-2 me-2"
+                          formaction="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/action/reset_password"
+                        >
+                          Reset Password</button
+                        ><button
+                          type="submit"
+                          class="btn btn-warning mt-2 me-2"
+                          onclick="return confirm('Are you sure?')"
+                          formaction="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/action/wipe"
+                        >
+                          Wipe</button
+                        ><button
+                          type="submit"
+                          class="btn btn-danger mt-2 me-2"
+                          onclick="return confirm('Are you sure?')"
+                          formaction="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/action/delete"
+                        >
+                          Delete
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="row p-2">
+                  <div class="card p-0">
+                    <div class="card-header">Braze</div>
+                    <div class="card-body">
+                      <div>
+                        <label class="text-secondary me-1">Country:</label
+                        ><label class="">US</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Language:</label
+                        ><label class="">en</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Time Zone:</label
+                        ><label class="">America/Chicago</label>
+                      </div>
+                      <hr />
+                      <h4>Clue [iOS]</h4>
+                      <div>
+                        <label class="text-secondary me-1">Version:</label
+                        ><label class="">52.0</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">First Used:</label
+                        ><label class="">2019-11-25 19:41:34</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Last Used:</label
+                        ><label class="">2022-03-29 16:23:44</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Sessions:</label
+                        ><label class="">474</label>
+                      </div>
+                      <hr />
+                      <h4>Devices</h4>
+                      <div>
+                        <label class="text-secondary me-1"
+                          >iPhone 11 Pro Max:</label
+                        ><label class="">14.0.1</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="row p-2">
+                  <div class="card p-0">
+                    <div class="card-header">Data</div>
+                    <div class="card-body">
+                      <div>
+                        <label class="text-secondary me-1">Sync Status:</label
+                        ><label class="text-danger"
+                          >Out of sync (2022-03-27 02:25:33)</label
+                        >
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Last Sync:</label
+                        ><label class="">Mar 27 2022</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1"
+                          >Synced Data Points:</label
+                        ><label class="">378</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1"
+                          >Removed Data Points:</label
+                        ><label class="">5</label>
+                      </div>
+                      <div>
+                        <label class="text-secondary me-1">Cycles:</label
+                        ><label class="">31</label>
+                      </div>
+                      <h4 class="mt-3">Synced Data Points</h4>
+                      <div style="max-height: 400px; overflow: auto">
+                        <table class="table table-sm">
+                          <thead>
+                            <tr>
+                              <th scope="col">Date</th>
+                              <th scope="col">Count</th>
+                              <th scope="col">Removed</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Mar 26 2022</td>
+                              <td>2</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 24 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 23 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 21 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 20 2022</td>
+                              <td>2</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 19 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 16 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 15 2022</td>
+                              <td>2</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 13 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 12 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 11 2022</td>
+                              <td>1</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 10 2022</td>
+                              <td>4</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Mar 09 2022</td>
+                              <td>2</td>
+                              <td>
+                                <div class="text-success">None</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <form method="post" class="form-inline">
+                        <button
+                          type="submit"
+                          class="btn btn-primary mt-2 me-2"
+                          formaction="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/action/trigger_backup"
+                        >
+                          Trigger Backup
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="row p-2">
+                  <div class="card p-0">
+                    <div class="card-header">CBC</div>
+                    <div class="card-body">
+                      <form method="post" class="form-inline">
+                        <input
+                          type="hidden"
+                          name="analyticsId"
+                          value="clue-1a9fc198ccafdc63bdc165e701f63c3"
+                        /><button
+                          type="submit"
+                          class="btn btn-primary mt-2 me-2"
+                          formaction="/users/000d882c-5d4c-437c-a1c6-103ba37ca63c/action/send_follow_up_survey"
+                        >
+                          Send Follow Up Survey
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <grammarly-desktop-integration
+    data-grammarly-shadow-root="true"
+  ></grammarly-desktop-integration>
+</html>
