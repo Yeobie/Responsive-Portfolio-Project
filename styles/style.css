@@ -280,4 +280,9 @@ nav li .active {
   .footer-email {
     font-size: 20px;
   }
+
+  .credits p,
+  .credits a {
+    font-size: 13px;
+  }
 }
