@@ -53,6 +53,10 @@ h3 {
   font-size: 44px;
 }
 
+.content-hero p {
+  margin-right: 50px;
+}
+
 h2,
 .content-hero h1 {
   font-size: 64px;
@@ -95,18 +99,14 @@ nav li .active {
   margin-bottom: 150px;
 }
 
-.colorings {
-  margin-left: 50px;
-  margin-top: 50px;
-}
-
-.Player-Zero {
-  max-width: 50%;
-}
-
 .drawings-description {
   margin-top: 100px;
   margin-left: 100px;
+}
+
+.colorings {
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .colorings-description {
@@ -116,9 +116,7 @@ nav li .active {
 .frontend-description {
   margin-left: 100px;
 }
-.content-hero p {
-  margin-right: 50px;
-}
+
 .ilaria-vilardi {
   max-width: 80%;
   margin-top: 80px;
